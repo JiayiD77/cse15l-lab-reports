@@ -11,8 +11,8 @@
 2. b
 3. d
 ---
-'code' this is an inline code
-'''
+`code` this is an inline code
+```
 this is a block code
 this is a block code
-'''
+```
