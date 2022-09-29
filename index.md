@@ -16,4 +16,4 @@
 this is a block code
 this is a block code
 ```
-[Lab Report 1](https://JiayiD77.github.io/<your-lab-reports-repo>/lab-report-1-week-0.html)
+[Lab Report 1](https://JiayiD77.github.io/lab-report-1-week-0.html)
