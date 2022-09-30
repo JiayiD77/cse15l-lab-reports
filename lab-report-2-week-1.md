@@ -13,3 +13,12 @@ Login with *ssh* + *username* at the terminal of the VScode. Password is needed 
 I tried out some commands on the remote computer. Some of them gave results and some of them didn't. It is my first time using these commands, so I defititely need more practice. But it was fun. 
 ![Image](https://github.com/JiayiD77/cse15l-lab-reports/blob/main/Week1/command3.png)
 Command *cd* did not produce any output on the remote computer. However, I can see changes if I used this command on my pc and shown above. 
+
+* Moving Files with scp
+![Image](https://github.com/JiayiD77/cse15l-lab-reports/blob/main/Week1/Moving%20files.png)
+Moving files was a fun one. The format of the command should be *scp fileName accountName:~/directory*. 
+
+* Setting an SSH Key
+* Optimizing Remote Running
+
+
