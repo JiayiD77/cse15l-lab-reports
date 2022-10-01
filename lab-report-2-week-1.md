@@ -16,9 +16,14 @@ Command *cd* did not produce any output on the remote computer. However, I can s
 
 * Moving Files with scp
 ![Image](https://github.com/JiayiD77/cse15l-lab-reports/blob/main/Week1/Moving%20files.png)
-Moving files was a fun one. The format of the command should be *scp fileName accountName:~/directory*. 
+Moving files was a fun one. The format of the command should be *scp fileName accountName:~/directory*. I forget to add directory path at the first time so this is a pretty important point for me to remember. However, it is kind of tedius to type the password again and again. 
 
 * Setting an SSH Key
+![Image](https://github.com/JiayiD77/cse15l-lab-reports/blob/main/Week1/ssh.jpg)
+For this step, I need to create a public and private key set on my computer first using *ssh-keygen*. Then using the directory pass and copy the public key onto the remote computer. Then I don't need to type my password to login and copy files.
+
 * Optimizing Remote Running
+![Image](https://github.com/JiayiD77/cse15l-lab-reports/blob/main/Week1/optimize.jpg)
+With the ssh key set, I can directly include commands while login. As long as I seperate different commands with colon, it will be fine.
 
 
