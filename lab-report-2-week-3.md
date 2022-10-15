@@ -64,13 +64,13 @@ class SearchEngine {
 }
 ```
 
-![Add words](./searchEngine1.png)<br>
+![Add words](./searchEngine1.png)<br />
 To add the word apple, the main method is called. Then handleRequest is called. The url is passed into the handleRequest method. An arraylist of string named *str* is created with empty value. With *"/add"* and *"s"* present in the url, the word *"apple"* after *"="* is added to the *str*. Now *str* stores one element. *str* still holds one element after the request is done. 
 
-![Add words](./searchEngine2.png)<br>
+![Add words](./searchEngine2.png)<br />
 I added another word. The process is most the same as described above. *str* now will hold two elements and will not change after the request is done.
 
-![Search](./searchEngine3.png)<br>
+![Search](./searchEngine3.png)<br />
 I added a few other words and then did a search for the words contain *"app"*. Since the url now contains the key word *"/search"*, it passes the if statement for search. A new arraylist of string named *"output"* is created to temporarily hold value that matches requirement. All the words in the variable *"str"* will go through the loop. The ones that contains *"app"* will be added to the *"output"*. The output is printed on the webpage at the end. After the request is done. *"str"* will not change, but *"output"* will be cleared. 
 
 
