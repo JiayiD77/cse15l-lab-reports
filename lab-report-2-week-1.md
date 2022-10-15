@@ -1,4 +1,4 @@
-# Lab Report Week 1
+# Lab Report 1
 * Installing VScode
 ![Image](https://user-images.githubusercontent.com/114614626/193378137-4eebfc91-7317-4a10-b0d3-f5e855ca1dcf.jpg)
 Download the VScode from the official website. Get the VScode installed following the instructions.
