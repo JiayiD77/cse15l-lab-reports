@@ -78,10 +78,13 @@ I added a few other words and then did a search for the words contain *"app"*. S
 **Bug1**<br>
 Input test code for bug 1.<br>
 ![input code one](./testcode1.png)<br>
+
 Symptom for bug 1.<br>
 ![symptom](./output1.jpg)<br>
+
 Code for bug 1.<br>
 ![bug](./bug1_code.jpg)<br>
+
 Fixed code for bug 1.<br>
 ![fixed](./fixedcode1.png)<br>
 The test is a basic reversed list test. The failed output is showing that the expected output should be 5 but the actual output is 0. This is caused by two bugs from the original code. Firstly, the code assigned value in the empty int list *newArray* to the input list *arr*. This makes *arr* also become an empty list. Secondly, it returns *arr*. Therefore the first element of the actual output is zero. To fix the bug, *newArray* should copy element from *arr* and then return *newArray*, as shown in the image Fixed code for bug 1.
