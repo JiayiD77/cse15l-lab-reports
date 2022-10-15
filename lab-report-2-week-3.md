@@ -74,3 +74,25 @@ I added another word. The process is most the same as described above. *str* now
 I added a few other words and then did a search for the words contain *"app"*. Since the url now contains the key word *"/search"*, it passes the if statement for search. A new arraylist of string named *"output"* is created to temporarily hold value that matches requirement. All the words in the variable *"str"* will go through the loop. The ones that contains *"app"* will be added to the *"output"*. The output is printed on the webpage at the end. After the request is done. *"str"* will not change, but *"output"* will be cleared. 
 
 
+## Part 2
+**Bug1**<br>
+Input test code for bug 1.
+![input code one](./testcode1.png)
+Symptom for bug 1.
+![symptom](./output1.jpg)
+Code for bug 1.
+![bug](./bug1_code.jpg)
+Fixed code for bug 1.
+![fixed](./fixedcode1.png)
+The test is a basic reversed list test. The failed output is showing that the expected output should be 5 but the actual output is 0. This is caused by two bugs from the original code. Firstly, the code assigned value in the empty int list *newArray* to the input list *arr*. This makes *arr* also become an empty list. Secondly, it returns *arr*. Therefore the first element of the actual output is zero. To fix the bug, *newArray* should copy element from *arr* and then return *newArray*, as shown in the image Fixed code for bug 1.
+
+**Bug2**<br>
+Input test code for bug 2.
+![input code one](./testcode2.png)
+Symptom for bug 2.
+![symptom](./output2.png)
+Code for bug 2.
+![bug](./bug2_code.png)
+Fixed code for bug 2.
+![fixed](./fixedcode2.png)
+The code causes an OutOfMemoryError. When there are more than one element in the linked list, the code will enter the while loop when running. The condition for the while loop to run is the *n.next* value is not null. In the loop body, *n.next* is always assigned with a new Node. This means the code will always satisfy the condition that *n.next* is not null. Therefore the while loop will run infinitely until the computer runs out of memory and cuases an error. The while part of the loop is to loop to the end of the linked list so that it can add a node at the end. To do this, just move the second line out of the loop after the while loop, as shown in Fixed code for bug 2. While loop will break after it reaaches the last node and a new node can be added. 
