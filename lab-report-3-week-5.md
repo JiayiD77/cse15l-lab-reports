@@ -2,6 +2,7 @@
 ## Use command *grep*
 
 *grep -n*
+
 Example 1 (I am using '...' to represent the remaining output so that I don't have to copy all the output here which is way to much lines)
 ```
 ucsd@DESKTOP-TN1IVAS MINGW64 /d/cse15l/docsearch (main)
