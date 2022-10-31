@@ -22,7 +22,21 @@ $ grep -n "chapter" ./technical/*/*.txt
 ...
 ```
 
- Example 3
+Example 2
+```
+ucsd@DESKTOP-TN1IVAS MINGW64 /d/cse15l/docsearch (main)
+$ grep -n "Chapter" ./technical/*/*.txt
+./technical/911report/chapter-13.3.txt:659:                Chapter 8.
+./technical/plos/journal.pbio.0020071.txt:38:        In Chapter 7, the authors discuss five topics that have traditionally been hard to
+./technical/plos/journal.pbio.0020071.txt:63:        evolution (Chapter 3) and subsequently discuss evidence from the geographical distributions
+./technical/plos/journal.pbio.0020071.txt:64:        of living and fossil species (Chapter 4). My first impression was that this part occupies
+./technical/plos/journal.pbio.0020071.txt:65:        too large a proportion of the book. However, Chapter 3 serves as a good introduction to the
+./technical/plos/journal.pbio.0020116.txt:51:        the title of Chapter 4 of the report, “Ageless Bodies,” implies that immortality is the
+./technical/plos/journal.pbio.0020145.txt:26:        membrane structure, protein structure, and signal transduction in Chapters 5, 12, and 15,
+./technical/plos/journal.pbio.0020439.txt:128:        Nine Chapters of the Mathematical Art ; Smoller 2001). In the 19th
+```
+
+Example 3
  ```
  ucsd@DESKTOP-TN1IVAS MINGW64 /d/cse15l/docsearch (main)
 $ grep -n "gene" ./technical/government/*/*.txt
@@ -56,7 +70,7 @@ $ grep -n "gene" ./technical/government/*/*.txt
  The command *grep -n* opion takes a pattern in "" and a file option after it and return all the lines that in file that contains the pattern with the prefix of line number added before the actual content of the line. This can be used if we the actual content of the file is really large. With the line number provided, we can easily locate where the content is.
 
 
-*grep -n*
+*grep -r*
 
 Example 1
  ```
