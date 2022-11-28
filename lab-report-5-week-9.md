@@ -1,6 +1,6 @@
 # Lab Report 5
-## grade.sh
-`
+## grade.sh code
+```
 FILE_NAME="ListExamples.java"
 CLASS_NAME="class ListExamples"
 CP=".;../lib/hamcrest-core-1.3.jar;../lib/junit-4.13.2.jar"
@@ -40,7 +40,7 @@ else
   exit 1
 fi
 
-javac -cp $CP *.java
+javac -cp $CP *.java 2> compile_error.txt
 
 if [[ $? -eq 0 ]]
 then
@@ -61,6 +61,9 @@ else
   echo "[FAILED] jUnit result: " $RESULT
   exit 1
 fi
+```
 
-
-`
+## Report in browser
+![ScreenShot1](./Lab5_image/1.png)
+![ScreenShot2](./Lab5_image/2.png)
+![ScreenShot3](./Lab5_image/3.png)
